@@ -13,4 +13,11 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('PyCharm')
 
+import pytest
+if __name__ == '__main__':
+    command_line = ["-s", "./case", "--alluredir=report"]
+    command_line = ["-s", "./case", "--alluredirallure_data"]
+    pytest.main(command_line)
+
+
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

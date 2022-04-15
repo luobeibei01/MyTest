@@ -15,4 +15,4 @@ def test_LogIn():
     }
     res=requests.post(url=url,data=json.dumps(payload,separators=(',',':')),verify=False)
     assert res.json()['error_msg']=='操作成功'
-    assert res.json()['data']['uid']==1000127
+    assert res.json()['data']['uid']==1000218
